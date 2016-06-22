@@ -73,7 +73,7 @@ top:0;
 left:0;
 width:100%;
 height:100%;
-background: url(../img/pattern.png);
+/*background: url(../img/pattern.png);*/
 }
 
 #flex-head h1{
@@ -235,7 +235,7 @@ padding:120px 0;
 .page-bgcolor{
 background:#f2f2f2;
 }
-/* ================================================= about us ================================================== */
+/* ================================================= présentation ================================================== */
 
 .about-content p{
 font-size:14px;
@@ -261,7 +261,7 @@ padding: 14px 24px;
 .main-about .btn-clear:hover{
 color:#fff;
 }
-	/*==================progress========================*/
+	/*==================compétences========================*/
 .progress {
 height:9px;
 background-color: #dadfe1;
@@ -319,6 +319,35 @@ top: -16px;
 }
 .progress {
 clear: both;
+}
+
+/* ============================================== Parcours ================================================================= */
+.pdate{
+   font-size: 20px; 
+}
+
+.pleft {
+    float: left;
+    margin-left: 20em;
+    margin-top: 1em;
+}
+
+.pright {
+    float: right;
+    margin-right: 20em;
+    margin-top: 1em;
+}
+
+.formation{
+    float: left;
+    margin-left: 5em;
+    border-color: #444444;  
+}
+
+.experience {
+    float: right;
+    margin-right: 5em;
+    border-color: #444444; 
 }
 
 /* ============================================== Portfolio ================================================================= */
@@ -518,6 +547,7 @@ left:50%;
 top:-24px;
 margin-left:-55px;
 }
+
 .link-chain{
 position:absolute;
 right:50%;
