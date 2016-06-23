@@ -322,33 +322,58 @@ clear: both;
 }
 
 /* ============================================== Parcours ================================================================= */
-.pdate{
-   font-size: 20px; 
+.parcours {
+    position: relative;
 }
 
-.pleft {
+.trait {
+    height: 300px;
+    width : 2px;
     float: left;
-    margin-left: 20em;
-    margin-top: 1em;
+    background-color: #444444;
+    margin-left: 50%;
 }
 
-.pright {
-    float: right;
-    margin-right: 20em;
-    margin-top: 1em;
-}
-
-.formation{
+.date{
+    position: absolute;
+    font-size: 14px; 
     float: left;
-    margin-left: 5em;
-    border-color: #444444;  
+    color: #444444
 }
 
-.experience {
-    float: right;
-    margin-right: 5em;
-    border-color: #444444; 
+.date-simple {
+    margin-left: 30em;
+    height: 50px;
+    line-height: 50px;
 }
+
+.date-double {
+    margin-left: 380px;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*.datedouble {
+    font-size: 20px; 
+    float: left;
+    margin-left: 350px;
+}*/
+
+.parcours-rubrique{
+    position: absolute;
+    float: left;
+    margin-left: 45em;
+     
+}
+
+.parcours-rubrique p {
+    height: 50px;
+}
+
+span {
+    color: #444444;
+}
+
 
 /* ============================================== Portfolio ================================================================= */
 ul#filterOptions{
@@ -769,6 +794,11 @@ padding: 5px 10px;
 }
 .link-attr a i {
 font-size: 12px;
+}
+    
+ .parcours{
+float:left;
+width : 70%;     
 }
 }
 
